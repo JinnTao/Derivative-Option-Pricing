@@ -1,0 +1,13 @@
+
+#vs genarate file
+.vs
+
+# build files
+Debug
+
+x64_Debug
+
+
+
+#template file
+Template*

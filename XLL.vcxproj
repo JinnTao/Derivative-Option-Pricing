@@ -22,7 +22,7 @@
     <ProjectGuid>{DE8A087D-EF7B-4777-A464-F47096EE968C}</ProjectGuid>
     <RootNamespace>ExampleXll</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -30,7 +30,7 @@
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>true</CLRSupport>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -43,13 +43,13 @@
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>true</CLRSupport>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>true</CLRSupport>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -132,7 +132,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\ProgamCode\XLL_Project\optionModel;D:\XLL_Project\optionModel;$(XLW)/xlw/include;./source;D:\ProgamCode\XLL_Project\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)optionModel;$(XLW)/xlw/include;./source;$(SolutionDir)src;$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;EXAMPLEXLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -145,9 +145,9 @@
       <ExceptionHandling>Async</ExceptionHandling>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>xlw-vc110-mt-gd-5_0_2f0.lib;odbc32.lib;odbccp32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>xlw-vc120-mt-gd-5_0_2f0.lib;odbc32.lib;odbccp32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(SolutionName).xll</OutputFile>
-      <AdditionalLibraryDirectories>$(XLW)/xlw/lib/x64;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(XLW)/xlw/lib/x64;$(OutDir);$(SolutionDir)lib_win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AssemblyDebug>true</AssemblyDebug>
@@ -162,7 +162,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(XLW)/xlw/include;./source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(XLW)/xlw/include;./source;$(SolutionDir)include;$(SolutionDir)optionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;EXAMPLEXLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -172,7 +172,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>xlw-vc110-mt-5_0_2f0.lib;odbc32.lib;odbccp32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>xlw-vc120-mt-5_0_2f0.lib;odbc32.lib;odbccp32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(SolutionName).xll</OutputFile>
       <AdditionalLibraryDirectories>$(XLW)/xlw/lib;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
@@ -193,7 +193,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>D:\ProgamCode\XLL_Project\include;D:\ProgamCode\XLL_Project\optionModel;$(XLW)/xlw/include;./source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)optionModel;$(XLW)/xlw/include;./source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;EXAMPLEXLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -203,7 +203,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>xlw-vc110-mt-5_0_2f0.lib;odbc32.lib;odbccp32.lib;User32.lib;lapack_win64_MT.lib;blas_win64_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>xlw-vc120-mt-5_0_2f0.lib;odbc32.lib;odbccp32.lib;User32.lib;lapack_win64_MT.lib;blas_win64_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(SolutionName).xll</OutputFile>
       <AdditionalLibraryDirectories>$(XLW)/xlw/lib/x64;lib_win64;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>

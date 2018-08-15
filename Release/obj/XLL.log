@@ -1,0 +1,25 @@
+﻿  mxlwcppinterface.cpp
+  xlwcppinterface.cpp
+     正在创建库 D:\ProgamCode\Derivative-Option-Pricing\Release\Template.lib 和对象 D:\ProgamCode\Derivative-Option-Pricing\Release\Template.exp
+  正在生成代码
+  已完成代码的生成
+xlw-vc120-mt-5_0_2f0.lib(ArgList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(ArgList.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(MJCellMatrix.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(MJCellMatrix.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(NCmatrices.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(NCmatrices.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(PascalStringConversions.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(PascalStringConversions.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(PathUpdater.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(PathUpdater.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(TempMemory.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(TempMemory.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(Win32StreamBuf.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(Win32StreamBuf.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(xlcall.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(xlcall.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfAbstractCmdDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfAbstractCmdDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfArgDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfArgDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfArgDescList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfArgDescList.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfCmdDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfCmdDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfExcel.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfExcel.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfFuncDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfFuncDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfOperImpl.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfOperImpl.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfOperProperties.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfOperProperties.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlfServices.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfServices.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlFunctionRegistration.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlFunctionRegistration.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+xlw-vc120-mt-5_0_2f0.lib(XlOpenClose.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlOpenClose.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  XLL.vcxproj -> D:\ProgamCode\Derivative-Option-Pricing\Release\Template.xll

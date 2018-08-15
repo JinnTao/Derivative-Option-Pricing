@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -26,19 +26,19 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -75,9 +75,9 @@
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Configuration)\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc11  ALL </NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc11  REBUILD </NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc11 CLEAN  </NMakeCleanCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc12  ALL </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc12  REBUILD </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc12 CLEAN  </NMakeCleanCommandLine>
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
@@ -86,9 +86,9 @@
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc11  ALL </NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake"  ENVIRON=Release LIBRARY=$(SolutionName) VC=vc11 REBUILD </NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc11 CLEAN </NMakeCleanCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc12  ALL </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake"  ENVIRON=Release LIBRARY=$(SolutionName) VC=vc12 REBUILD </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc12 CLEAN </NMakeCleanCommandLine>
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
@@ -97,9 +97,9 @@
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc11  ALL </NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake"  ENVIRON=Release LIBRARY=$(SolutionName) VC=vc11 REBUILD </NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc11 CLEAN </NMakeCleanCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc12 ALL </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake"  ENVIRON=Release LIBRARY=$(SolutionName) VC=vc12 REBUILD </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Release LIBRARY=$(SolutionName) VC=vc12 CLEAN </NMakeCleanCommandLine>
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
