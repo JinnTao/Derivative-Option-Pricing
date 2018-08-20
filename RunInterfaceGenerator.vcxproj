@@ -64,9 +64,9 @@
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc11  ALL </NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc11  REBUILD </NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(VS110COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc810 CLEAN  </NMakeCleanCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake"  ENVIRON=Debug LIBRARY=$(SolutionName) vc=vc12  ALL </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc12  REBUILD </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(VS120COMNTOOLS)..\..\VC\bin\NMAKE" /f ".\RunInterfaceGenerator.nmake" ENVIRON=Debug LIBRARY=$(SolutionName) VC=vc12 CLEAN  </NMakeCleanCommandLine>
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
