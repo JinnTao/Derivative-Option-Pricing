@@ -1,25 +1,50 @@
-﻿  mxlwcppinterface.cpp
-  xlwcppinterface.cpp
-     正在创建库 D:\ProgamCode\Derivative-Option-Pricing\Release\Template.lib 和对象 D:\ProgamCode\Derivative-Option-Pricing\Release\Template.exp
-  正在生成代码
-  已完成代码的生成
-xlw-vc120-mt-5_0_2f0.lib(ArgList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(ArgList.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(MJCellMatrix.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(MJCellMatrix.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(NCmatrices.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(NCmatrices.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(PascalStringConversions.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(PascalStringConversions.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(PathUpdater.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(PathUpdater.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(TempMemory.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(TempMemory.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(Win32StreamBuf.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(Win32StreamBuf.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(xlcall.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(xlcall.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfAbstractCmdDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfAbstractCmdDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfArgDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfArgDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfArgDescList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfArgDescList.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfCmdDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfCmdDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfExcel.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfExcel.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfFuncDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfFuncDesc.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfOperImpl.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfOperImpl.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfOperProperties.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfOperProperties.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlfServices.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfServices.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlFunctionRegistration.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlFunctionRegistration.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-xlw-vc120-mt-5_0_2f0.lib(XlOpenClose.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlOpenClose.obj)”或在“D:\ProgamCode\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-  XLL.vcxproj -> D:\ProgamCode\Derivative-Option-Pricing\Release\Template.xll
+﻿生成启动时间为 2018/8/21 10:12:29。
+     1>项目“D:\Github\Derivative-Option-Pricing\XLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\XLW\xlw-5.0.2f0/xlw/include" /I./source /I"D:\Github\Derivative-Option-Pricing\include" /I"D:\Github\Derivative-Option-Pricing\optionModel" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EXAMPLEXLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Github\Derivative-Option-Pricing\Release\obj\\" /Fd"D:\Github\Derivative-Option-Pricing\Release\obj\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AutoGeneratedSource\mxlwcppinterface.cpp
+         mxlwcppinterface.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\XLW\xlw-5.0.2f0/xlw/include" /I./source /I"D:\Github\Derivative-Option-Pricing\include" /I"D:\Github\Derivative-Option-Pricing\optionModel" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EXAMPLEXLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Github\Derivative-Option-Pricing\Release\obj\\" /Fd"D:\Github\Derivative-Option-Pricing\Release\obj\vc120.pdb" /TP /analyze- /errorReport:prompt AutoGeneratedSource\xlwcppinterface.cpp
+         xlwcppinterface.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Github\Derivative-Option-Pricing\Release\Template.xll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\XLW\xlw-5.0.2f0/xlw/lib" /LIBPATH:"D:\Github\Derivative-Option-Pricing\Release\\" "xlw-vc120-mt-5_0_2f0.lib" odbc32.lib odbccp32.lib User32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Github\Derivative-Option-Pricing\Release\Template.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /MACHINE:X86 /SAFESEH /DLL "D:\Github\Derivative-Option-Pricing\Release\obj\mxlwcppinterface.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\xlwcppinterface.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\algorithmLib.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\americanPrice.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\asianBarrier.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\asianPrice.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\barrierPrice.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\digital.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\europeanPrice.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\option.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\spreadEuropean.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\structure.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\source.obj"
+         "D:\Github\Derivative-Option-Pricing\Release\obj\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            正在创建库 D:\Github\Derivative-Option-Pricing\Release\Template.lib 和对象 D:\Github\Derivative-Option-Pricing\Release\Template.exp
+         正在生成代码
+         已完成代码的生成
+     1>xlw-vc120-mt-5_0_2f0.lib(ArgList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(ArgList.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(MJCellMatrix.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(MJCellMatrix.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(NCmatrices.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(NCmatrices.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(PascalStringConversions.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(PascalStringConversions.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(PathUpdater.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(PathUpdater.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(TempMemory.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(TempMemory.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(Win32StreamBuf.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(Win32StreamBuf.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(xlcall.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(xlcall.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfAbstractCmdDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfAbstractCmdDesc.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfArgDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfArgDesc.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfArgDescList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfArgDescList.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfCmdDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfCmdDesc.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfExcel.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfExcel.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfFuncDesc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfFuncDesc.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfOperImpl.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfOperImpl.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfOperProperties.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfOperProperties.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlfServices.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlfServices.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlFunctionRegistration.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlFunctionRegistration.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>xlw-vc120-mt-5_0_2f0.lib(XlOpenClose.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“xlw-vc120-mt-5_0_2f0.lib(XlOpenClose.obj)”或在“D:\Github\Derivative-Option-Pricing\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         XLL.vcxproj -> D:\Github\Derivative-Option-Pricing\Release\Template.xll
+     1>已完成生成项目“D:\Github\Derivative-Option-Pricing\XLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.26
