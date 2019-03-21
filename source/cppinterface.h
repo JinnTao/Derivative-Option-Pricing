@@ -45,6 +45,7 @@ double TD_asianBarrierModel(std::string optionType,std::string valueType, double
 
 double TD_version(int i);
 
+double TD_euro_impVol(std::string optionType,double K,double rate,double b,double S,double optionPrice,double tau);
 
 
 #endif
