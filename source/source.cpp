@@ -5,6 +5,22 @@
 #pragma warning (disable : 4996)
 using namespace System;
 shared_ptr<map<int,int>> pTradeDay = nullptr;
+
+
+
+double TD_euro_impVol(std::string optionType,double K,double rate,double b,double S,double optionPrice,double tau){
+    double initVol = 0.50;
+    double target_vol = 0;
+    int iters_times = 0;
+
+    while (iters_times < 20 && std::abs(initVol - target_vol) > 1e-6 ){
+        traget_vol = init_vol - TD_blackScholesMertonPrice( optionType, "p", K, rate, b, S, init_vol, tau) /
+        TD_blackScholesMertonPrice( optionType, "v", K, rate, b, S, init_vol, tau);
+        iters_times++;
+    }
+    return target_vol;
+}
+
 void optionTypeChoice(std::string _optionType,std::string _valueType,std::string sUt, OptionType &T,Greeks &G,underlyingType &uT){
 	if(_optionType == "call"){
 		T = OptionType::CALL;
@@ -378,7 +394,7 @@ double TD_ewma_vol(const MyMatrix &logReturn,double lamuda = 0.94){
 	double sum_lamada = 0;
 	double sum_return_u = 0;
 	double E_U;
-	//收益率权重分布
+	//脢脮脪忙脗脢脠篓脰脴路脰虏录
 	for(int i = 0;i <= closeRow- 1;i++){
 		sum_return += std::pow(lamuda,i) *  logReturn[0][closeRow - 1 - i];
 		sum_lamada += std::pow(lamuda,i);
